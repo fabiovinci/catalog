@@ -28,8 +28,13 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: npm ci
-      - run: npm run build
+      - env:
+          GIT_HUB_COLLECTIONS_REPO: FAIRiCUBE/catalog
+          GIT_HUB_COLLECTIONS_BRANCH: main
+          COLLECTIONS_BROWSER_ROOT_URL: https://fairicube.github.io/catalog/
+        run: |
+          npm ci
+          npm run build
       - uses: actions/upload-artifact@v3
         with:
           name: output
