@@ -1,9 +1,9 @@
-**The goal of this registry is to expand access to useful data collections available on Euro Data Cube.** With that in mind, we prefer to list collections that are clearly documented, actively supported and that can be used for research or educational purposes. Collections are included at the discretion of the Euro Data Cube team, which may remove collections from the registry at any time. Data providers are responsible for maintaining and supporting the data that they share.
+**The goal of this registry is to expand access to useful data collections available on FAIRiCUBE Hub.** With that in mind, we prefer to list collections that are clearly documented, actively supported and that can be used for research or educational purposes. Collections are included at the discretion of the FAIRiCUBE Hub team, which may remove collections from the registry at any time. Data providers are responsible for maintaining and supporting the data that they share.
 
 ## How are collections added to the registry?
 
-Each collection in this repository is described in a dedicated YAML file in [/collections](https://github.com/eurodatacube/public-collections/tree/main/collections) directory, e.g. [/collections/global-land-cover.yaml](https://github.com/eurodatacube/public-collections/tree/main/collections/global-land-cover.yaml)
-Data providers can create a new YAML file copying the structure of the most similar existing one. After committing it to the GitHub, create a pull request and Euro Data Cube team will review it and publish it in the Registry.
+Each collection in this repository is described in a dedicated YAML file in [/collections](https://github.com/FAIRiCUBE/catalog/tree/main/collections) directory, e.g. [/collections/global-land-cover.yaml](https://github.com/FAIRiCUBE/catalog/tree/main/collections/global-land-cover.yaml)
+Data providers can create a new YAML file copying the structure of the most similar existing one. After committing it to the GitHub, create a pull request and FAIRiCUBE Hub team will review it and publish it in the Registry.
 Note that all external additional files should be stored in a directory with the exact same name as the associated YAML file. Note also that thumbnail image should have the same name as the associated YAML file. Lowercase is recommended for all file names and paths.
 Users are also welcome to revise existing collections, e.g. adding new usage examples, tools, etc.
 
@@ -172,7 +172,7 @@ CRS:
 | Field | Type | Description & Style |
 | --- | --- | --- |
 | **Name** | String | Full name of the collection.|
-| **Description**|MD|A high-level description of the collection. Only the first 600 characters will be displayed on the homepage of the [Euro Data Cube Public Collections](https://collections.eurodatacube.com/).|
+| **Description**|MD|A high-level description of the collection. Only the first 600 characters will be displayed on the homepage of the [FAIRiCUBE Hub Catalog](https://catalog.fairicube.eu/).|
  **Documentation**|MD| A link to documentation of the collection on the data provider's website.|
 |**AdditionalInfoExternal**|MD | Additional documentation of the collection contained in a README.MD file saved in this repository.|
 |**AdditionalInfoExternal >> Title**|MD | Additional info. |

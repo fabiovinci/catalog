@@ -104,7 +104,7 @@ body { padding: 85px 0 30px 0;
 }
 
 .navbar-default {
-  background-color: #004170;
+  background-color: #029743;
 }
 
 .roda-header h1, .roda-header h2 {
@@ -165,9 +165,9 @@ h4 {
 }
 
 #header_logo {
-  max-width: 120px;
+  max-height: 80px;
   float:right;
-  padding: 20px 0 16px 0 ;
+  padding: 10px 0px;
 }
 
 .label {
@@ -175,7 +175,7 @@ h4 {
 }
 
 .label-info {
-  background-color: #004170;
+  background-color: #029743;
 }
 
 .label-info:hover {
