@@ -31,7 +31,7 @@ jobs:
       - env:
           GIT_HUB_COLLECTIONS_REPO: FAIRiCUBE/catalog
           GIT_HUB_COLLECTIONS_BRANCH: main
-          COLLECTIONS_BROWSER_ROOT_URL: https://fairicube.github.io/catalog/
+          COLLECTIONS_BROWSER_ROOT_URL: https://catalog.fairicube.eu/
         run: |
           npm ci
           npm run build
