@@ -29,9 +29,9 @@ jobs:
         with:
           node-version: 18
       - env:
-          GIT_HUB_COLLECTIONS_REPO: FAIRiCUBE/catalog
+          GIT_HUB_COLLECTIONS_REPO: fabiovinci/catalog
           GIT_HUB_COLLECTIONS_BRANCH: main
-          COLLECTIONS_BROWSER_ROOT_URL: https://catalog.fairicube.eu/
+          COLLECTIONS_BROWSER_ROOT_URL: https://fabiovinci.github.io/catalog/
         run: |
           npm ci
           npm run build
