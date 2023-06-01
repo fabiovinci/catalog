@@ -27,7 +27,7 @@ TrainingProcessorType: gpu
 # STAC-ML: ml-model:training_os
 TrainingOs: linux
 # STAC Custom Extension
-Tags:
+Keywords:
    - Dutch crop types
    - Sentinel-2
    - Convolutional Neural Network
