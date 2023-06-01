@@ -27,12 +27,8 @@ TrainingProcessorType: gpu
 # STAC-ML: ml-model:training_os
 TrainingOs: linux
 # STAC Custom Extension
-Keywords:
-   - Dutch crop types
-   - Sentinel-2
-   - Convolutional Neural Network
-   - Case Study
-   - PyTorch
+Tags:
+   PyTorch
 # STAC Custom Extension or STAC link
 Documentation:
    - https-//github.com/FAIRiCUBE/uc2-biodiversity-agriculture/tree/main/rasdaman-ml-udf
