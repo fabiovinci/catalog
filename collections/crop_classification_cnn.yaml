@@ -60,7 +60,7 @@ BiasesAndEthicalAspects: The crop data (labels) are significantly imbalanced, pa
 ProducedResults:
    - In rasdaman?
 # STAC Custom Extension
-DataAtWork: The model produces a spatial dataset with the inferred
+DataUsed: The model produces a spatial dataset with the inferred
   crop type as integer index value for each grid cell. The index is sequential and
   can be translated into the actual crop type.
 # STAC Custom Extension
