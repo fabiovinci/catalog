@@ -28,7 +28,7 @@ TrainingProcessorType: gpu
 TrainingOs: linux
 # STAC Custom Extension
 Tags:
-   PyTorch
+   - PyTorch
 # STAC Custom Extension or STAC link
 Documentation:
    - https-//github.com/FAIRiCUBE/uc2-biodiversity-agriculture/tree/main/rasdaman-ml-udf
