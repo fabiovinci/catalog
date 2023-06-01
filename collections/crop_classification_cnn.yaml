@@ -1,21 +1,19 @@
 Name: Crop Classification CNN
-ID: '1'
-Description: An example convolutional neural network trained on 7 Sentinel-2 images
-  throughout the Dutch growing season, using bands R, G, B, and NIR of each image,
-  and ground truth data taken from the Dutch agricultural land registration. All data
-  used was from 2018, and the model has been trained to infer 76 different crop types.
+OpenEOPID: ID_1
+Description: |
+ An example convolutional neural network trained on 7 Sentinel-2 images throughout the Dutch growing season, using bands R, G, B, and NIR of each image, land ground truth data taken from the Dutch agricultural land registration. All data used was from 2018, and the model has been trained to infer 76 different crop types.
 # STAC Custom Extension
 MainCategory: Deep Learning
 # STAC Custom Extension
-RegistryEntryAdded: '2022'
+RegistryEntryAdded: 2022
 # STAC-ML: ml-model:prediction_type or STAC Custom Extension
 Objective:
-   - segmentation
+  - segmentation
 Platform:
-   - Rasdaman
+  - Rasdaman
 # STAC Custom Extension
 Framework:
-   - PyTorch
+  - PyTorch
 # STAC-ML: ml-model:architecture
 Architecture: cnn
 # STAC-ML: ml-model:learning_approach
@@ -28,7 +26,7 @@ TrainingProcessorType: gpu
 TrainingOs: linux
 # STAC Custom Extension
 Tags:
-   - PyTorch
+  - PyTorch
 # STAC Custom Extension or STAC link
 Documentation:
    - https-//github.com/FAIRiCUBE/uc2-biodiversity-agriculture/tree/main/rasdaman-ml-udf
@@ -66,3 +64,4 @@ Performance: This model is mostly a technological proof of concept and performan
   parcel boundaries very well.
 # STAC: license
 License: cc-by-nc-sa-4.0
+LicenseType: cc-by-nc-sa-4.0
